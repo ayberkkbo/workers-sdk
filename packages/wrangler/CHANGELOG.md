@@ -1,5 +1,16 @@
 # wrangler
 
+## 3.28.3
+
+### Patch Changes
+
+- [#4900](https://github.com/cloudflare/workers-sdk/pull/4900) [`3389f2e9`](https://github.com/cloudflare/workers-sdk/commit/3389f2e9daa27f89c2dc35c2ccd4da4ec54db683) Thanks [@OilyLime](https://github.com/OilyLime)! - feature: allow hyperdrive users to set local connection string as environment variable
+
+  Wrangler dev now supports the HYPERDRIVE_LOCAL_CONNECTION_STRING environmental variable for connecting to a local database instance when testing Hyperdrive in local development. This environmental variable takes precedence over the localConnectionString set in wrangler.toml.
+
+- Updated dependencies [[`7723ac17`](https://github.com/cloudflare/workers-sdk/commit/7723ac17906f894afe9af2152437726ac09a6290)]:
+  - miniflare@3.20240129.3
+
 ## 3.28.2
 
 ### Patch Changes
